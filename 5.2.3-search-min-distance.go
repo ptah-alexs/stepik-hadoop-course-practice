@@ -73,6 +73,9 @@ func main() {
             }
         }
         vertexVisited[v] = true
+        if v+1 ==  endEdge {
+            break
+        }
     }
      if vertexDistance[endEdge-1] != 900000000000000 {
         fmt.Println(vertexDistance[endEdge-1])
