@@ -36,7 +36,7 @@ func main() {
             }
         } else {
             if dparts[:len(dparts)-1] != "" {
-            dvrtx = dparts[:len(dparts)-1]
+                dvrtx = dparts[:len(dparts)-1]
             }
             if dsval != "INF" {
                 fmt.Sscanf(dsval, "%d", &dtmp)
